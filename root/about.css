@@ -1,0 +1,113 @@
+@font-face {
+        font-family: 'garet';
+        src: url('fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
+             url('fonts/garetbook.woff') format('woff'),    /* WOFF format */
+             url('fonts/garetbook.ttf') format('truetype'); /* TTF format */
+        font-weight: normal;
+        font-style: normal;
+
+}
+@font-face {
+        font-family: 'garetheavy';
+        src: url('fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
+             url('fonts/garetheavy.woff') format('woff'),    /* WOFF format */
+             url('fonts/garetheavy.ttf') format('truetype'); /* TTF format */
+        font-weight: normal;
+        font-style: normal;
+      }
+body {background-color: #b1d7d6;
+      color: white;
+      font-family: 'garet',arial, helvetica, sans-serif;
+      font-size: 1.3em;
+}
+h1{font-family: 'garet';
+  font-size: 2em;
+  font-weight:bold;
+}
+h2{font-family: 'garetheavy'}
+h3{font-family: 'garet';
+  font-weight: 2em;
+}
+#headernav{background-color:#255353;
+  color: white;
+  margin: -0.8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'garetheavy';
+  font-size: 1.3em;
+}
+#bod{display: flex;
+flex-direction: row;}
+#highlight{
+  display: flex;
+  flex-direction: column;
+}
+.script{position: relative;
+width: 27vw;
+z-index: 2;
+top:-5vw;
+}
+.fam{position: relative;
+  width: 35vw;
+z-index: 1;
+top: -17vw;
+
+}
+a{color: white;
+  text-decoration: none;
+
+}
+a:hover{color: #306b6b;
+
+}
+.lbs{position: relative;
+  width: 60vw;
+margin: 5vw;
+
+}
+.heading{color: #255353;
+  position: relative;
+  font-family: 'garetheavy';
+  font-size: 1.3em;
+  margin-top: -10vw;
+
+}
+.backgroundimage {
+  position: absolute;
+  left: -60vh;
+  top: 15vw;
+  z-index: -1;
+  width: 65vw;
+}
+#desc{
+  background-color: rgba(177, 215, 214,0.5);
+  position: relative;
+width: 60vw;
+top: 2vh
+}
+.motto{
+  margin-left: 10vw;
+  margin-bottom: 15vw;
+}
+footer{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  float: none;
+  top: 20vw;
+  margin: -1vw;
+  background-color: #255353;
+}
+.bottom{display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 1.2em;
+margin-top: 5vw;
+margin-bottom: 2vw;
+padding-left: 5vw;
+padding-right: 2vw;
+}
+.logo{margin: 2vw;
+  height: 10vw;
+}
