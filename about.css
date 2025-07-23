@@ -1,24 +1,24 @@
 @font-face {
         font-family: 'garet';
-        src: url('fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
-             url('fonts/garetbook.woff') format('woff'),    /* WOFF format */
-             url('fonts/garetbook.ttf') format('truetype'); /* TTF format */
+        src: url('root/fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetbook.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetbook.ttf') format('truetype'); /* TTF format */
         font-weight: normal;
         font-style: normal;
 
 }
 @font-face {
         font-family: 'garetheavy';
-        src: url('fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
-             url('fonts/garetheavy.woff') format('woff'),    /* WOFF format */
-             url('fonts/garetheavy.ttf') format('truetype'); /* TTF format */
+        src: url('root/fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetheavy.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetheavy.ttf') format('truetype'); /* TTF format */
         font-weight: normal;
         font-style: normal;
       }
 body {background-color: #b1d7d6;
       color: white;
       font-family: 'garet',arial, helvetica, sans-serif;
-      font-size: 1.3em;
+      font-size: 1.2em;
 }
 h1{font-family: 'garet';
   font-size: 2em;
@@ -37,8 +37,16 @@ h3{font-family: 'garet';
   font-family: 'garetheavy';
   font-size: 1.3em;
 }
-#bod{display: flex;
-flex-direction: row;}
+
+a{color: white;
+  text-decoration: none;
+}
+a:hover{color: #306b6b;
+}
+
+#oteach{display: flex;
+flex-direction: row;
+}
 #highlight{
   display: flex;
   flex-direction: column;
@@ -46,19 +54,12 @@ flex-direction: row;}
 .script{position: relative;
 width: 27vw;
 z-index: 2;
-top:-5vw;
+top: 3vw;
 }
 .fam{position: relative;
   width: 35vw;
 z-index: 1;
-top: -17vw;
-
-}
-a{color: white;
-  text-decoration: none;
-
-}
-a:hover{color: #306b6b;
+top: -9vw;
 
 }
 .lbs{position: relative;
@@ -73,18 +74,19 @@ margin: 5vw;
   margin-top: -10vw;
 
 }
-.backgroundimage {
-  position: absolute;
-  left: -60vh;
-  top: 15vw;
+.backgroundimage {position: absolute;
+  top: 25vw;
+  left: -30vh;
   z-index: -1;
-  width: 65vw;
+  width: 0vh;
+
 }
-#desc{
-  background-color: rgba(177, 215, 214,0.5);
+
+#desc{background-color: rgba(177, 215, 214,0.3);
   position: relative;
-width: 60vw;
-top: 2vh
+  width: 60vw;
+  top: 2vh;
+  z-index: 2;
 }
 .motto{
   margin-left: 10vw;
@@ -95,9 +97,10 @@ footer{
   display:flex;
   flex-direction: row;
   float: none;
-  top: 20vw;
+  top: 0vw;
   margin: -1vw;
   background-color: #255353;
+  z-index: 3;
 }
 .bottom{display: flex;
 flex-direction: column;

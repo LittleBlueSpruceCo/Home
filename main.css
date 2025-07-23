@@ -1,17 +1,17 @@
 @font-face {
         font-family: 'garet';
-        src: url('fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
-             url('fonts/garetbook.woff') format('woff'),    /* WOFF format */
-             url('fonts/garetbook.ttf') format('truetype'); /* TTF format */
+        src: url('root/fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetbook.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetbook.ttf') format('truetype'); /* TTF format */
         font-weight: normal;
         font-style: normal;
 
 }
 @font-face {
         font-family: 'garetheavy';
-        src: url('fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
-             url('fonts/garetheavy.woff') format('woff'),    /* WOFF format */
-             url('fonts/garetheavy.ttf') format('truetype'); /* TTF format */
+        src: url('root/fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetheavy.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetheavy.ttf') format('truetype'); /* TTF format */
         font-weight: normal;
         font-style: normal;
       }
