@@ -1,0 +1,103 @@
+@font-face {
+        font-family: 'garet';
+        src: url('root/fonts/garetbook.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetbook.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetbook.ttf') format('truetype'); /* TTF format */
+        font-weight: normal;
+        font-style: normal;
+
+}
+@font-face {
+        font-family: 'garetheavy';
+        src: url('root/fonts/garetheavy.woff2') format('woff2'),  /* WOFF2 format */
+             url('root/fonts/garetheavy.woff') format('woff'),    /* WOFF format */
+             url('root/fonts/garetheavy.ttf') format('truetype'); /* TTF format */
+        font-weight: normal;
+        font-style: normal;
+      }
+body {background-color: #b1d7d6;
+      color: white;
+      font-family: 'garet',arial, helvetica, sans-serif;
+      font-size: 1.2em;
+}
+h1{font-family: 'garet';
+  font-size: 2em;
+  font-weight:bold;
+}
+h2{font-family: 'garetheavy'}
+h3{font-family: 'garet';
+  font-weight: 2em;
+}
+#headernav{background-color:#255353;
+  color: white;
+  margin: -0.8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'garetheavy';
+  font-size: 1.3em;
+}
+
+a{color: white;
+  text-decoration: none;
+}
+a:hover{color: #306b6b;
+}
+#contactinfo{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 2vw;
+}
+.contacttext{
+  position: relative;
+  text-align: center;
+  top: 2vw;
+}
+#scheduleatour {display: flex;
+          position: relative;
+          justify-content: center;
+          flex-direction: column;
+          margin: 2vw;
+}
+#scheduleatour>p{font-size: 1.5em;
+            text-align: center;
+
+}
+.asidebutton{
+  background-color: #306b6b;
+  color: white;
+  font-family: 'garet',arial, helvetica, sans-serif;
+  font-size: 1em;
+  border:0;
+  width: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+button:hover {background-color: #b1d7d6;
+
+}
+
+footer{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  float: none;
+  top: 0vw;
+  margin: -1vw;
+  background-color: #255353;
+  z-index: 3;
+}
+.bottom{display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 1.2em;
+margin-top: 5vw;
+margin-bottom: 2vw;
+padding-left: 5vw;
+padding-right: 2vw;
+}
+.logo{margin: 2vw;
+  height: 10vw;
+}
